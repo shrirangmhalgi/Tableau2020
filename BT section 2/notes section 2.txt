@@ -55,6 +55,7 @@ press control while dragging a dimension.. it creates a copy of the selected dim
 you can choose the different color palletes
 click on colors -> edit colors and then select the color pallete you want
 ------------------------------------------------------------
+
 2.6 adding labels and formatting 
 tableau is a tool which allows you to very easily create visualizations and make your life simple and easy to understand 
 
@@ -80,5 +81,10 @@ we can change the font
 we can hide the column fields by right click on the columns and hide column fields
 we can also edit the text on the axis by right click -> edit 
 shortcut to edit axis is by double clicking on it 
+------------------------------------------------------------
 
+2.7 exporting your worksheet
+worksheet -> export -> image (slower)
+right click -> copy -> image (same result as above)
 
+select whatever you need and then click copy and then paste the image
