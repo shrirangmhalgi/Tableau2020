@@ -1,0 +1,6 @@
+tableau is a super easy data visualization tool.
+using tableau we can create meaningful representations and dashboards.
+it is just a plug and play kind of a facility where you can drag and drop and get the results
+
+link of the datasets for the tableau course
+https://www.superdatascience.com/pages/tableau

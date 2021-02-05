@@ -1,0 +1,84 @@
+2.1 business challenge
+find the employees who are eligible for bonus
+------------------------------------------------------------
+
+2.2 connecting tableau to a data file
+A csv file is considered as a text file.
+data can come from many files or many tabs or different types of files.
+
+you can change the data types of the fields while importing the data
+by clicking on small icon above the column name and select the appropriate type.
+
+in the sheet tab, there  is a data column to the left.
+we can do many things such as viewing the data, etc by right-clicking on the data source name
+
+if you want to connect more data then under the data drop down menu you can connect or you can go to data source tab in bottom left corner or right click on the name of the data and choose edit
+------------------------------------------------------------
+
+2.3 navigating tableau
+sheets are the tableaus working area
+data area is on the left which contains the fields 
+and the working area is on the right which contains the space to create the worksheets
+
+dimensions are independent variables and units are dependent variables
+
+show me is a helpful feature
+------------------------------------------------------------
+
+2.4 Creating Calculated fields
+clear sheet is there to clear the entire contents of the sheet 
+it is used to clear the entire contents of the sheet
+shortcut is alt + shift + backspace
+
+to create a calculated field, 
+right click on data pane -> create calculated field -> enter name and enter the formula
+click on apply	
+if there is a little equal sign before the # symbol then it indicates that it is a calculated field 
+
+if you drag it on the existing columns then it replaces it (small hack)
+
+sometimes data doesnt contain the exact information. It has the information there but it is hidden somewhere in the data
+tableau has insanely large variety to create calculated fields
+------------------------------------------------------------
+
+2.5 adding colors
+datascience is not about crunching numbers, but it is a form of a art. So having good form of colors and arts is also important
+
+by clicking on color you can change the colors of the whole chart to any color, apply border change the opacity, etc
+you can drag the any attribute to the color panel and then you will get color effects
+
+Tip : 
+1. IF you drag continous values on the the color then it gives you the hue (light to dark shades).
+2. IF you drag discrete values on the the color then it gives you the discrete colors (different shades).
+
+press control while dragging a dimension.. it creates a copy of the selected dimension
+you can choose the different color palletes
+click on colors -> edit colors and then select the color pallete you want
+------------------------------------------------------------
+2.6 adding labels and formatting 
+tableau is a tool which allows you to very easily create visualizations and make your life simple and easy to understand 
+
+label adds textual information to the charts
+we can add multiple values to the labels
+you can edit your own labels
+click on labels -> click on ... and edit 
+you can edit the font, the alignment what all marks to label, etx
+
+you can fix a not showing label by 
+right click on label -> mark label -> always show 
+
+fix the formatting by :
+labels have their own formatting but all the other values have their own formatting by 
+right click on the specific part you want to format -> format
+labels are on the pane and not on the axis
+alignment : used to change the alignment of the text 
+
+format the axis
+right click on the axis -> format and then select axis on the left habd 
+
+we can change the font
+we can hide the column fields by right click on the columns and hide column fields
+we can also edit the text on the axis by right click -> edit 
+shortcut to edit axis is by double clicking on it 
+
+
