@@ -175,6 +175,13 @@
   </datasources>
   <worksheets>
     <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Annual Bonus Report</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources>
@@ -247,6 +254,7 @@
                 <format attr='mark-labels-show' value='true' />
                 <format attr='mark-labels-mode' value='all' />
                 <format attr='mark-labels-cull' value='true' />
+                <format attr='has-stroke' value='true' />
               </style-rule>
               <style-rule element='pane'>
                 <format attr='minheight' value='331' />

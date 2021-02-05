@@ -88,3 +88,6 @@ worksheet -> export -> image (slower)
 right click -> copy -> image (same result as above)
 
 select whatever you need and then click copy and then paste the image
+
+2.8 get the viz
+www.public.tableau.com/profile/krill.eremenko
