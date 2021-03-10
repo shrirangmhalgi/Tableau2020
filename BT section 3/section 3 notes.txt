@@ -1,0 +1,68 @@
+--------------------3.2 Working with data extracts------------------
+Data extracts are useful as they keep a copy of data and you dont
+work with live data..
+So if the data gets changed or something happens you always have a 
+backup of the orignal data
+
+To work with extract, 
+go to sheet -> right click on data -> use extract -> select settings
+-> save the extract file -> right click on data -> use extract
+
+benefits of extract:
+using live connection might be slow
+data might be changing
+it might not be reliable 
+so it is advised to use extracts for big data
+
+--------------------3.3 Working with time series------------------
+for date time datatype, there are 2 options for the values in the 
+dropdown..
+1. first one shows that it is a categorical variable (highlighted in blue)
+2. second one shows that it is a measure (highlighted in green)
+
+
+if you want discrete varibales then use the measures and
+if you want categories then use the first option (aggrigation is performed based on similar values)
+changing the granularity means to drill down into the data
+from years to quaters to months to days etc 
+
+you can show or hide the points by going into color settings and choose the marker settings
+
+--------------------3.4 understanding aggregation, granularity and level of detail------------------
+measures get aggregated in tableau and dimensions specify the level of granularity
+
+if we dont want aggregation and want each and every data then 
+go to analysis, uncheck aggregate measures.
+
+if you want to change the level of granularity, 
+you can add some other variables acc to which you want the granularity to be changed in marks section
+
+if you want to change the granularity without changing the visual then use the details tab under the marks section
+you can also change the aggregation type by playing with aggregation types
+
+--------------------3.5 Creating a area chart and learning about highlighting------------------
+highlighing is the feature wherein you can select the different categories to get out meaningful insights about data
+eg. when we click on one of the genders, we can see the chart for specific genders only
+we cannot highlight the details so we can use color or shape to get the legend for specific categories and then we can use the 
+"Highlight Selected Items" opiton for making more sense of the data
+
+highlighting is used to analyse data in data analysis.
+we have to choose our marks wisely and select the appropriate type 
+for the chart we have to create
+
+--------------------3.6 Adding Filter and Quick Filter------------------
+The filters tab is helpful to add filter.
+It acts as where / having clause in the database
+just drag your measure or dimension into the filter condition and then select the appropriate condition
+
+Quick Filter is used to make the things quick.. you dont need to open the condition everytime when you want to analyse the chart
+right click on the filter and select show quick filter
+
+
+
+
+
+
+
+
+
