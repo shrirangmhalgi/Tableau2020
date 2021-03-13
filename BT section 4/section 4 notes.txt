@@ -1,0 +1,92 @@
+------------------4.2 Joining data in tableau---------------------
+by default there is a relationship which is present in new tableau
+however, you can join the data by double clicking on the data file
+then by dragging the other table into the table area.
+if you see 2 circles then you have successfully joined 2 tables
+there are various types of joins available
+1. inner join
+2. left outer join
+3. right outer join
+4. full outer join
+you can perform multiple joins same like the database
+
+if one of the table contains duplicate data for joins, 
+then the row is duplicated same like the database
+
+------------------4.3 Creating a map. Working with hierarchies---------------------
+we can create hierarchies in tableau
+to do so, just drag child element on to parent element and hierarchy will be created.
+
+be careful not to aggregate data for different years unless required
+
+filter, aggregate, calculated fields, maps, etc
+
+------------------4.4 Creating a Scatter plot and Apply filter accross many different worksheets---------------------
+by default we get aggregated measures 
+if in any case, you want to disaggregate it then 
+go to analysis tab and check off the aggregate tab
+
+or we can leave the aggregate function on and add stuff to details
+
+to apply multiple filter, you can do is 
+right click on 1 filter and say apply to worksheets -> all using this datasource
+
+if you want to show any detail in granularity then we can use colors and details 
+scatter plot is created when you take 2 measures in rows and columns
+
+------------------4.5 Creating our 1st dashboard---------------------
+dashboard is more of a visual kind of representation
+dashboard is used to do data investigation
+
+to adjust, change the size of the element on the sheet
+the filters which are not useful and are for asthetic purposes can be removed
+
+------------------4.6 Adding an interactive action - Filter---------------------
+making dashboard interactive means giving user an option to drill down into the data
+to make it interactive, 
+go to dashboard -> Actions
+then you can choose add action to add different filters to your dashboard
+
+to add a automatic action, 
+click on the map settings in the dashboard -> use as filter
+
+in actions, there is source, target, then type of action (hover, select, etc)
+source is the source of action
+target is the target sheets to which actions is applied
+actions is the event on which the action is applied
+hoving might be more convinient in certain cases
+
+
+using the menuu features you can toggle the dashboard manually
+you can select multiple values too.
+to do so press control and click
+or you can use different types of selections
+lasso is useful as it gives ability to freely select any region 
+
+------------------4.7 Adding an interactive action - Highlighting---------------------
+when you click on certain section and then if you want to 
+highlight some specific part then you use highlighting action in the dashboard
+
+to apply highlighting 
+go to dashboard -> actions -> add new -> highlighting
+
+highlighting is little different from filter action as if there is multiple data 
+for some specific item then it wont get highlighted
+To overcome this, you need to use appropriate granularity for your data in your sheets
+
+action filters work at data level. they filter the data and then supplied to dashboard
+filters dont take out data so we need to be carful with the granularity of the data
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
